@@ -4,15 +4,15 @@
   font-family: Monument Extended;
 }
 
-/* @font-face {
+ @font-face {
   font-family: Monument Extended;
-  src: url('../Assets/Font/MonumentExtended-Regular.otf');
+  src: url('./Assets/Font/MonumentExtended-Regular.otf');
 }
 
 @font-face {
   font-family: Lovelace Text;
-  src: url('../Assets/Font/Zetafonts\ -\ Lovelace\ Text\ Regular.otf');
-} */
+  src: url('./Assets/Font/Zetafonts\ -\ Lovelace\ Text\ Regular.otf');
+}
 
 .container {
   width: 100vw;
@@ -242,4 +242,38 @@ li,
 
 .beard_description_skin p {
   text-align: left;
+}
+
+/* quote cointainer */
+.quote_container{
+  width: 100vw;
+  height: 550px;
+  background-color:#F89369;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote_text{
+  color: #222124;
+  width: 16.8rem;
+  height: 18rem;
+}
+
+.quote{
+  width: 36rem;
+  height: 21.8rem;
+}
+
+/* artist_container */
+
+.artist_container{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 36.8rem;
+  height: 18.7rem;
 }
