@@ -8,7 +8,6 @@ import image7 from '../src/Assets/Images/Beard_Content/hair_content_product.png'
 import image8 from '../src/Assets/Images/Beard_Content/hair_content_1.png';
 import image9 from '../src/Assets/Images/Beard_Content/Group artist.png';
 import image10 from '../src/Assets/Images/Beard_Content/chair.png';
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>;
 
 function App() {
   return (
@@ -137,12 +136,16 @@ function App() {
       </div>
 
       <div className="quote_container">
-        <div className="quote">
-          Naszą ambicją jest sprawić, abyś wyszła z salonu z nowym wizerunkiem
-          siebie.
-          <div className="quote_author">
-            Richard Davidson, kierownik pokazu w Montpellier
-          </div>
+        <div className='quote_content'>
+            <div className="quote">
+            Naszą ambicją jest sprawić, abyś wyszła z salonu z nowym wizerunkiem
+            <span id='quote_span'> siebie.</span>
+            </div>
+
+            <div className="quote_author">
+                Richard Davidson, <span id='quote_span'>Kierownik pokazu w Montpellier</span>
+            </div>
+
         </div>
 
         <div className="quote_text">
@@ -160,7 +163,8 @@ function App() {
           purus sit amet luctus venenatis, lectus magna
         </p>
 
-        <button className="beard_content_button"></button>
+        <button className="beard_content_button">Odkryj</button>
+        
       </div>
 
       <div className="artist_image">
@@ -177,8 +181,8 @@ function App() {
         </div>
 
         <div className="pricing_card_container">
-          <div className="pricing_card"></div>
-        </div>
+          
+        
 
         <div class="wrapper">
           <div class="table basic">
@@ -305,6 +309,7 @@ function App() {
             </div>
           </div>
         </div>
+        </div>
 
         <div className="beard_top_panel">
           <h4 id="text_beard_top_panel">Skontaktuj się z nami</h4>
@@ -340,6 +345,7 @@ function App() {
                 Streetstyle i modna atmosfera w połączeniu z elegancją i
                 know-how Paryża tworzą szykowną i ciepłą koncepcję.
               </p>
+              <p>Telefon : 03 12 14 27 64</p>
             </div>
             <div className="footer_right">
               <div className="left_content">

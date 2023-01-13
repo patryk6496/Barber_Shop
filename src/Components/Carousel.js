@@ -22,15 +22,19 @@ const Carousel = () => {
     <Slider {...settings}>
       <div>
         <img src={image1} alt="Slide 1" />
+        <p>BEARD WAX 10E</p>
       </div>
       <div>
         <img src={image2} alt="Slide 2" />
+        <p>BEARD WAX 10E</p>
       </div> 
       <div>
         <img src={image3} alt="Slide 3" />
+        <p>BEARD WAX 10E</p>
       </div>
       <div>
-        <img src={image3} alt="Slide 3" />
+        <img src={image3} alt="Slide 4" />
+        <p>BEARD WAX 10E</p>
       </div>
     </Slider>
   );

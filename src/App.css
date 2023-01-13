@@ -8,12 +8,12 @@
 
  @font-face {
   font-family: Monument Extended;
-  src: url('./Assets/Font/MonumentExtended-Regular.otf');
+  src: local('../Assets/Font/MonumentExtended-Regular.otf')format('otf');
 }
 
 @font-face {
   font-family: Lovelace Text;
-  src: url('./Assets/Font/Zetafonts\ -\ Lovelace\ Text\ Regular.otf');
+  src: local('../Assets/Font/Zetafonts\ -\ Lovelace\ Text\ Regular.otf') format('otf');
 }
 
 .container {
@@ -253,7 +253,7 @@ li,
   background-color:#F89369;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -261,11 +261,24 @@ li,
   color: #222124;
   width: 16.8rem;
   height: 18rem;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 150%;
+  color: #222124;
 }
 
 .quote{
   width: 36rem;
   height: 21.8rem;
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 130%;
+  letter-spacing: -0.3px;
+  color: #121212;
+}
+
+#quote_span{
+  color: #fff;
 }
 
 /* artist_container */
@@ -280,6 +293,26 @@ li,
   height: 18.7rem;
 }
 
+.artist_container h2{
+  font-weight: 400;
+  font-size: 3.4rem;
+  line-height: 55px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.artist_container p{
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  text-align: center;
+}
+
+.artist_image{
+  display: flex;
+  justify-content: center;
+}
+
 /* pricing card */
 .wrapper{
   max-width: 100vh;
@@ -287,6 +320,7 @@ li,
   margin: auto;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 6.2rem;
 }
 .wrapper .table{
   background: #fff;
@@ -500,6 +534,66 @@ li,
 }
 
 /* contact section */
+.contact_container{
+  width: 100vh;
+  display: flex;
+  margin: 0 auto;
+  color: #121212;
+}
 
+.contact_details h2{
+  font-weight: 400;
+  font-size: 3.4rem;
+  line-height: 55px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.contact_details p{
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 140%;
+}
+
+.contact_address h3{
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 35px;
+}
 
 /* footer */
+.footer_container{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  color: #F5F5F0;
+}
+
+.footer_content{
+  width: 100% ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left_content, .right_content{
+  width: 350px;
+  height: 185px;
+}
+
+.footer_right{
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_left{
+  width: 45%;
+}
+
+.footer_bottom{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  color: #F5F5F0;
+  display: flex;
+  justify-content: center;
+}
