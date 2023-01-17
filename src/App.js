@@ -66,7 +66,7 @@ function App() {
               dolor purus non.
             </p>
 
-            <button className="beard_content_button">Ucz się więcej</button>
+            <button className="beard_content_button">Dowiedz się więcej</button>
           </div>
 
           <div className="razor_photo">
@@ -93,7 +93,7 @@ function App() {
               luctus venenatis, lectus magna fringilla urna, porttitor rhoncus
               dolor purus non.
             </p>
-            <button className="beard_content_button">Ucz się więcej</button>
+            <button className="beard_content_button">Dowiedz się więcej</button>
           </div>
           <div className="example_photo">
             <img src={image6} alt="skin_content_product" />
@@ -112,7 +112,7 @@ function App() {
               luctus venenatis, lectus magna fringilla urna, porttitor rhoncus
               dolor purus non.
             </p>
-            <button className="beard_content_button">Ucz się więcej</button>
+            <button className="beard_content_button">Dowiedz się więcej</button>
           </div>
 
           <div className="razor_photo">
@@ -128,7 +128,7 @@ function App() {
       <div className="container_carousel_products">
         <div className="top_panel_carousel">
           <h2>Nasze Produkty</h2>
-          <button className="beard_content_button">Ucz się więcej</button>
+          <button className="beard_content_button">Dowiedz się więcej</button>
         </div>
 
         <Carousel />
@@ -184,128 +184,134 @@ function App() {
           
         
 
-        <div class="wrapper">
-          <div class="table basic">
-            <div class="price-section">
-              <div class="price-area">
-                <div class="inner-area">
-                  <span class="text">$</span>
-                  <span class="price">29</span>
+        <div className="wrapper">
+          <div className="table basic">
+            <div className="price-section">
+              <div className="price-area">
+                <div className="inner-area">
+                  <span className="text">zł</span>
+                  <span className="price">30</span>
                 </div>
               </div>
             </div>
-            <div class="package-name"></div>
-            <ul class="features">
+            <div className="package-name"></div>
+            <ul className="features">
               <li>
-                <span class="list-name">One Selected Template</span>
-                <span class="icon check">
-                  <i class="fas fa-check"></i>
+                <span className="list-name">Analiza skóry głowy i masaż</span>
+                <span className="icon check">
+                  <i className="fas fa-check"></i>
                 </span>
               </li>
               <li>
-                <span class="list-name">100% Responsive Design</span>
-                <span class="icon check">
-                  <i class="fas fa-check"></i>
+                <span className="list-name">Zastosowanie odpowiedniego leczenia</span>
+                <span className="icon check">
+                  <i className="fas fa-check"></i>
                 </span>
               </li>
               <li>
-                <span class="list-name">Credit Remove Permission</span>
-                <span class="icon cross">
-                  <i class="fas fa-times"></i>
+                <span className="list-name">Strzyżenie</span>
+                <span className="icon cross">
+                  <i className="fas fa-check"></i>
                 </span>
               </li>
               <li>
-                <span class="list-name">Lifetime Template Updates</span>
-                <span class="icon cross">
-                  <i class="fas fa-times"></i>
+                <span className="list-name">Profesjonalna pielęgnacja</span>
+                <span className="icon cross">
+                  <i className="fas fa-check"></i>
                 </span>
               </li>
             </ul>
-            <div class="btn">
-              <button>Purchase</button>
+            <div className="btn">
+              <button>Umów sie</button>
             </div>
           </div>
-          <div class="table premium">
-            <div class="ribbon">
-              <span>Recommend</span>
+          <div className="table premium">
+            <div className="ribbon">
+              <span>Polecamy</span>
             </div>
-            <div class="price-section">
-              <div class="price-area">
-                <div class="inner-area">
-                  <span class="text">$</span>
-                  <span class="price">59</span>
+            <div className="price-section">
+              <div className="price-area">
+                <div className="inner-area">
+                  <span className="text">zł</span>
+                  <span className="price">45</span>
                 </div>
               </div>
             </div>
-            <div class="package-name"></div>
-            <ul class="features">
+            <div className="package-name"></div>
+            <ul className="features">
               <li>
-                <span class="list-name">Five Existing Templates</span>
-                <span class="icon check">
-                  <i class="fas fa-check"></i>
+                <span className="list-name">Analiza skóry głowy i masaż</span>
+                <span className="icon check">
+                  <i className="fas fa-check"></i>
                 </span>
               </li>
               <li>
-                <span class="list-name">100% Responsive Design</span>
-                <span class="icon check">
-                  <i class="fas fa-check"></i>
+                <span className="list-name">Zastosowanie odpowiedniego leczenia</span>
+                <span className="icon check">
+                  <i className="fas fa-check"></i>
                 </span>
               </li>
               <li>
-                <span class="list-name">Credit Remove Permission</span>
-                <span class="icon check">
-                  <i class="fas fa-check"></i>
+                <span className="list-name">Strzyżenie</span>
+                <span className="icon check">
+                  <i className="fas fa-check"></i>
                 </span>
               </li>
               <li>
-                <span class="list-name">Lifetime Template Updates</span>
-                <span class="icon cross">
-                  <i class="fas fa-times"></i>
+                <span className="list-name">Trymowanie i przycinanie brody</span>
+                <span className="icon cross">
+                  <i className="fas fa-check"></i>
+                </span>
+              </li>
+              <li>
+                <span className="list-name">Profesjonalna pielęgnacja</span>
+                <span className="icon cross">
+                  <i className="fas fa-check"></i>
                 </span>
               </li>
             </ul>
-            <div class="btn">
-              <button>Purchase</button>
+            <div className="btn">
+              <button>Umów sie</button>
             </div>
           </div>
-          <div class="table ultimate">
-            <div class="price-section">
-              <div class="price-area">
-                <div class="inner-area">
-                  <span class="text">$</span>
-                  <span class="price">99</span>
+          <div className="table ultimate">
+            <div className="price-section">
+              <div className="price-area">
+                <div className="inner-area">
+                  <span className="text">zł</span>
+                  <span className="price">20</span>
                 </div>
               </div>
             </div>
-            <div class="package-name"></div>
-            <ul class="features">
+            <div className="package-name"></div>
+            <ul className="features">
               <li>
-                <span class="list-name">All Existing Templates</span>
-                <span class="icon check">
-                  <i class="fas fa-check"></i>
+                <span className="list-name">Zastosowanie odpowiedniego leczenia</span>
+                <span className="icon check">
+                  <i className="fas fa-check"></i>
                 </span>
               </li>
               <li>
-                <span class="list-name">100% Responsive Design</span>
-                <span class="icon check">
-                  <i class="fas fa-check"></i>
+                <span className="list-name">Trymowanie brody</span>
+                <span className="icon check">
+                  <i className="fas fa-check"></i>
                 </span>
               </li>
               <li>
-                <span class="list-name">Credit Remove Permission</span>
-                <span class="icon check">
-                  <i class="fas fa-check"></i>
+                <span className="list-name">Przycinanie brody</span>
+                <span className="icon check">
+                  <i className="fas fa-check"></i>
                 </span>
               </li>
               <li>
-                <span class="list-name">Lifetime Template Updates</span>
-                <span class="icon check">
-                  <i class="fas fa-check"></i>
+                <span className="list-name">Profesjonalna pielęgnacja</span>
+                <span className="icon check">
+                  <i className="fas fa-check"></i>
                 </span>
               </li>
             </ul>
-            <div class="btn">
-              <button>Purchase</button>
+            <div className="btn">
+              <button>Umów sie</button>
             </div>
           </div>
         </div>

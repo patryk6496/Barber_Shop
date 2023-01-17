@@ -255,6 +255,8 @@ li,
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .quote_text{
@@ -424,58 +426,58 @@ li,
 .basic ::selection,
 .basic .price-area,
 .basic .inner-area{
-  background: #ffd861;
+  background: #f89369;
 }
 .basic .btn button{
-  border: 2px solid #ffd861;
+  border: 2px solid #f89369;
   background: #fff;
-  color: #ffd861;
+  color: #f89369;
 }
 .basic .btn button:hover{
-  background: #ffd861;
+  background: #f89369;
   color: #fff;
 }
 .premium ::selection,
 .premium .price-area,
 .premium .inner-area,
 .premium .btn button{
-  background: #a26bfa;
+  background: #f89369;
 }
 .premium .btn button:hover{
-  background: #833af8;
+  background: #f89369;
 }
 .ultimate ::selection,
 .ultimate .price-area,
 .ultimate .inner-area{
-  background: #43ef8b;
+  background: #f89369;
 }
 .ultimate .btn button{
-  border: 2px solid #43ef8b;
-  color: #43ef8b;
+  border: 2px solid #f89369;
+  color: #f89369;
   background: #fff;
 }
 .ultimate .btn button:hover{
-  background: #43ef8b;
+  background: #f89369;
   color: #fff;
 }
 .basic .package-name{
-  background: #ffecb3;
+  background: #000;
 }
 .premium .package-name{
-  background: #d0b3ff;
+  background: #000;
 }
 .ultimate .package-name{
-  background: #baf8d4;
+  background: #000;
 }
 .basic .package-name::before{
-  content: "Basic";
+  content: "Fryzura";
 }
 .premium .package-name::before{
-  content: "Premium";
+  content: "Fryzura i Broda";
   font-size: 24px;
 }
 .ultimate .package-name::before{
-  content: "Ultimate";
+  content: "Broda";
   font-size: 24px;
 }
 @media (max-width: 1020px) {
@@ -506,7 +508,7 @@ li,
   content: "";
   z-index: -1;
   display: block;
-  border: 7px solid #4606ac;
+  border: 7px solid #000;
   border-top-color: transparent;
   border-left-color: transparent;
 }
@@ -524,7 +526,7 @@ li,
   right: 0;
   transform: rotate(-45deg);
   width: 200px;
-  background: #a26bfa;
+  background: #000;
   padding: 10px 0;
   color: #fff;
   text-align: center;
@@ -541,6 +543,10 @@ li,
   color: #121212;
 }
 
+.contact_details{
+  margin: 100px 0 0 100px;
+}
+
 .contact_details h2{
   font-weight: 400;
   font-size: 3.4rem;
@@ -553,12 +559,15 @@ li,
   font-weight: 400;
   font-size: 1rem;
   line-height: 140%;
+  text-align: left;
+  padding: 30px 0 40px 0;
 }
 
 .contact_address h3{
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 35px;
+  padding: 0px 0 20px 0 ;
 }
 
 /* footer */
@@ -570,24 +579,46 @@ li,
 
 .footer_content{
   width: 100% ;
+  gap: 127px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.left_content, .right_content{
-  width: 350px;
-  height: 185px;
-}
-
-.footer_right{
-  width: 55%;
-  display: flex;
-  flex-direction: row;
+  padding-top: 50px;
 }
 
 .footer_left{
-  width: 45%;
+  width: 350px;
+  height: 185px;
+  text-align: left;
+}
+
+.footer_left p{
+  padding-top: 35px;
+  text-align: left;
+}
+
+.footer_right{
+  width: 458px;
+  height: 185px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 127px;
+}
+
+.left_content, .right_content{
+  width: 165px;
+  height: 185px;
+  align-self: stretch;
+}
+
+.left_content ul, .right_content ul{
+  list-style: none;
+  padding-top: 25px;
+}
+
+.left_content li, .right_content li{
+ padding-top: 10px;
 }
 
 .footer_bottom{
@@ -596,4 +627,19 @@ li,
   color: #F5F5F0;
   display: flex;
   justify-content: center;
+  padding-top: 50px;
+}
+
+/* top_panel_carousel */
+.top_panel_carousel{
+  display: flex;
+  justify-content: space-around;
+}
+
+.top_panel_carousel h2{
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }

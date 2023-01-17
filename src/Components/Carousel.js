@@ -3,8 +3,6 @@ import Slider from 'react-slick';
 import image1 from "../Assets/Images/Beard_Content/image1.png"
 import image2 from "../Assets/Images/Beard_Content/image2.png"
 import image3 from "../Assets/Images/Beard_Content/image3.png"
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
 
 const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -21,20 +19,20 @@ const Carousel = () => {
   return (
     <Slider {...settings}>
       <div>
-        <img src={image1} alt="Slide 1" />
-        <p>BEARD WAX 10E</p>
+        <img style={{margin: "auto"}}src={image1} alt="Slide 1" />
+        <p style={{textAlign: "center"}} >BEARD WAX 10E</p>
       </div>
       <div>
-        <img src={image2} alt="Slide 2" />
-        <p>BEARD WAX 10E</p>
+        <img style={{margin: "auto"}} src={image2} alt="Slide 2" />
+        <p style={{textAlign: "center"}}>BEARD WAX 10E</p>
       </div> 
       <div>
-        <img src={image3} alt="Slide 3" />
-        <p>BEARD WAX 10E</p>
+        <img style={{margin: "auto"}} src={image3} alt="Slide 3" />
+        <p style={{textAlign: "center"}}>BEARD WAX 10E</p>
       </div>
       <div>
-        <img src={image3} alt="Slide 4" />
-        <p>BEARD WAX 10E</p>
+        <img style={{margin: "auto"}} src={image3} alt="Slide 4" />
+        <p style={{textAlign: "center"}}>BEARD WAX 10E</p>
       </div>
     </Slider>
   );
