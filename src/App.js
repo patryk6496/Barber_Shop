@@ -15,7 +15,8 @@ function App() {
       <div className="hero">
         <div className="hero_nav_panel">
           <div className="hero_logo">
-            Polish Barber
+            Polish<br></br> Barber
+            </div>
             <div className="nav">
               <ul>
                 <li>Nasze Usługi</li>
@@ -25,7 +26,7 @@ function App() {
               </ul>
             </div>
             <button id="visit_button">Umów się na wiyztę</button>
-          </div>
+          
         </div>
 
         <div className="center_information">
@@ -77,9 +78,10 @@ function App() {
             <img src={image4} alt="beard_content_product" />
           </div>
         </div>
-
+        </div>
+        <div className="beard_container">
         <div className="beard_content_skin">
-          <div className="razor_photo">
+          <div className="razor_photo2">
             <img src={image5} alt="skin_content_photo" />
           </div>
           <div className="beard_description_skin">
@@ -95,9 +97,10 @@ function App() {
             </p>
             <button className="beard_content_button">Dowiedz się więcej</button>
           </div>
-          <div className="example_photo">
+          <div className="example_photo2">
             <img src={image6} alt="skin_content_product" />
           </div>
+        </div>
         </div>
 
         <div className="beard_content">
@@ -123,7 +126,6 @@ function App() {
             <img src={image8} />
           </div>
         </div>
-      </div>
 
       <div className="container_carousel_products">
         <div className="top_panel_carousel">
@@ -316,6 +318,7 @@ function App() {
           </div>
         </div>
         </div>
+        </div>
 
         <div className="beard_top_panel">
           <h4 id="text_beard_top_panel">Skontaktuj się z nami</h4>
@@ -376,7 +379,10 @@ function App() {
           </div>
         </div>
         <div className="footer_bottom">© 2021 The French Barber</div>
-      </div>
+      
+
+
+      
     </div>
   );
 }
