@@ -142,7 +142,7 @@ p {
   margin-top: -25px;
 }
 
-.beard_container {
+.beard_container2 {
   width: 100vw;
   height: auto;
 }
@@ -493,7 +493,7 @@ p {
 }
 @media (max-width: 698px) {
   .wrapper .table{
-    width: 100%;
+    width: 70%;
   }
 }
 ::selection{
@@ -652,18 +652,202 @@ p {
 
 /* responsive */
 
-@media only screen and (min-width: 320px) and (max-width: 479px){
-  
- }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
 
-@media only screen and (min-width: 480px) and (max-width: 767px){ 
+    
+  .nav{
+    display: none;
+  }
+
+  .information_button , .beard_content_button{
+    width: calc(40vw);
+    height: calc(20vw);
+  }
+
+  .hero_logo{
+    padding: 0;
+  }
+
+  .hero_logo p{
+    width: 40vw;
+    height: 10vw;
+    padding-top: 3vw;
+  }
+
+  
+  .beard_content,.beard_content_skin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .beard_description_skin, .beard_description{
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .beard_description h4, .beard_description_skin h4{
+    text-align: center;
+  }
+
+  .beard_description p,.beard_description_skin p ,.information_content p{
+    text-indent: 0%;
+    text-align: center;
+  }
+
+  .beard_top_panel{
+    height: 120px;
+  }
+
+  .example_photo, .razor_photo2 ,#photo_chair{
+    width: 360px;
+    height: 480px;
+    padding-top: 20px;
+  }
+  .example_photo img, .razor_photo2 img, #photo_chair img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .quote_container{
+    flex-direction: column;
+  }
+
+  .container_carousel_products{
+    margin-top: 40px;
+  }
+
+  .quote_container{
+    height: 730px;
+  }
+
+  .quote{
+    width: auto;
+  }
+
+  .quote_author{
+    margin-bottom: 80px;
+  }
+  .quote_content{
+    text-align: center;
+  }
+
+  .artist_container{
+    width: auto;
+  }
+
+  .artist_container h2, .artist_container p{
+    padding-bottom: 20px;
+  }
+
+  .artist_image img{
+    width: 90%;
+    height: 100%;
+  }
+
+  .wrapper{
+    flex-direction: column;
+  }
+
+  .pricing_card_container{
+    height: auto;
+  }
+
+  .wrapper .table{
+    margin: 30px 30px;
+  }
+
+  .contact_container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+
+  .contact_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+  }
+
+  .footer_container{
+    height: 660px;
+  }
+
+  .footer_content, .footer_right{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer_right{
+    width: auto;
+    gap: 50px;
+  }
+
+  .footer_left, .footer_left p,.left_content, .right_content, .footer_bottom{
+    text-align: center;
+  }
+  .footer_bottom{
+    padding: 20px 0 20px 0;
+  }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px){ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
 
- }
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
 
-@media only screen and (min-width: 992px){ 
-  
- }
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}

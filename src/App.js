@@ -15,7 +15,7 @@ function App() {
       <div className="hero">
         <div className="hero_nav_panel">
           <div className="hero_logo">
-            Polish<br></br> Barber
+            <p>Polish<br></br> Barber</p>
             </div>
             <div className="nav">
               <ul>
@@ -79,12 +79,9 @@ function App() {
           </div>
         </div>
         </div>
-        <div className="beard_container">
+        <div className="beard_container2">
         <div className="beard_content_skin">
-          <div className="razor_photo2">
-            <img src={image5} alt="skin_content_photo" />
-          </div>
-          <div className="beard_description_skin">
+        <div className="beard_description_skin">
             <h4>
               La <span>Skóra</span>
             </h4>
@@ -97,6 +94,10 @@ function App() {
             </p>
             <button className="beard_content_button">Dowiedz się więcej</button>
           </div>
+          <div className="razor_photo2">
+            <img src={image5} alt="skin_content_photo" />
+          </div>
+          
           <div className="example_photo2">
             <img src={image6} alt="skin_content_product" />
           </div>
