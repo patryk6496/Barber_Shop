@@ -25,6 +25,24 @@ function App() {
                 <li>Nasze salonu</li>
               </ul>
             </div>
+
+            <div className='navigation_icon'>
+              <input type="checkbox" id="navi-toggle" class="checkbox" />
+              <label for="navi-toggle" class="button_ham">
+                <span class="icon">&nbsp;</span>
+              </label>
+              <div class="background">&nbsp;</div>
+            </div> 
+
+            <nav class="nav_hamburger">
+              <ul class="list">
+                <li class="item"> <a class="link"> Link 1 </a> </li>
+                <li class="item"> <a class="link"> Link 2 </a> </li>
+                <li class="item"> <a class="link"> Link 4 </a> </li>
+                <li class="item"> <a class="link"> Link 5 </a> </li>
+                <li class="item"> <a class="link"> Link 6 </a> </li>
+              </ul>
+            </nav>
             <button id="visit_button">Umów się na wiyztę</button>
           
         </div>
