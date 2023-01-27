@@ -26,13 +26,13 @@ function App() {
               </ul>
             </div>
 
-            <div className='navigation_icon'>
+            
               <input type="checkbox" id="navi-toggle" class="checkbox" />
               <label for="navi-toggle" class="button_ham">
                 <span class="icon">&nbsp;</span>
               </label>
               <div class="background">&nbsp;</div>
-            </div> 
+            
 
             <nav class="nav_hamburger">
               <ul class="list">
