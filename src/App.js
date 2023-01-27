@@ -15,36 +15,50 @@ function App() {
       <div className="hero">
         <div className="hero_nav_panel">
           <div className="hero_logo">
-            <p>Polish<br></br> Barber</p>
-            </div>
-            <div className="nav">
-              <ul>
-                <li>Nasze Usługi</li>
-                <li>Nasze Produkty</li>
-                <li>Nasze ceny</li>
-                <li>Nasze salonu</li>
-              </ul>
-            </div>
+            <p>
+              Polish<br></br> Barber
+            </p>
+          </div>
+          <div className="nav">
+            <ul>
+              <li>Nasze Usługi</li>
+              <li>Nasze Produkty</li>
+              <li>Nasze ceny</li>
+              <li>Nasze salonu</li>
+            </ul>
+          </div>
 
-            
-              <input type="checkbox" id="navi-toggle" class="checkbox" />
-              <label for="navi-toggle" class="button_ham">
-                <span class="icon">&nbsp;</span>
-              </label>
-              <div class="background">&nbsp;</div>
-            
+          <input type="checkbox" id="navi-toggle" class="checkbox" />
+          <label for="navi-toggle" class="button_ham">
+            <span class="icon_ham">&nbsp;</span>
+          </label>
+          <div class="background">&nbsp;</div>
 
-            <nav class="nav_hamburger">
-              <ul class="list">
-                <li class="item"> <a class="link"> Link 1 </a> </li>
-                <li class="item"> <a class="link"> Link 2 </a> </li>
-                <li class="item"> <a class="link"> Link 4 </a> </li>
-                <li class="item"> <a class="link"> Link 5 </a> </li>
-                <li class="item"> <a class="link"> Link 6 </a> </li>
-              </ul>
-            </nav>
-            <button id="visit_button">Umów się na wiyztę</button>
-          
+          <nav class="nav_hamburger">
+            <ul class="list">
+              <li class="item">
+                {' '}
+                <a class="link"> Link 1 </a>{' '}
+              </li>
+              <li class="item">
+                {' '}
+                <a class="link"> Link 2 </a>{' '}
+              </li>
+              <li class="item">
+                {' '}
+                <a class="link"> Link 4 </a>{' '}
+              </li>
+              <li class="item">
+                {' '}
+                <a class="link"> Link 5 </a>{' '}
+              </li>
+              <li class="item">
+                {' '}
+                <a class="link"> Link 6 </a>{' '}
+              </li>
+            </ul>
+          </nav>
+          <button id="visit_button">Umów się na wiyztę</button>
         </div>
 
         <div className="center_information">
@@ -96,10 +110,10 @@ function App() {
             <img src={image4} alt="beard_content_product" />
           </div>
         </div>
-        </div>
-        <div className="beard_container2">
+      </div>
+      <div className="beard_container2">
         <div className="beard_content_skin">
-        <div className="beard_description_skin">
+          <div className="beard_description_skin">
             <h4>
               La <span>Skóra</span>
             </h4>
@@ -115,36 +129,36 @@ function App() {
           <div className="razor_photo2">
             <img src={image5} alt="skin_content_photo" />
           </div>
-          
+
           <div className="example_photo2">
             <img src={image6} alt="skin_content_product" />
           </div>
         </div>
+      </div>
+
+      <div className="beard_content">
+        <div className="beard_description">
+          <h4>
+            La <span>Włosy</span>
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringilla urna,
+            porttitor rhoncus dolor purus non t aliquam, purus sit amet luctus
+            venenatis, lectus magna fringilla urna, porttitor rhoncus dolor
+            purus non.
+          </p>
+          <button className="beard_content_button">Dowiedz się więcej</button>
         </div>
 
-        <div className="beard_content">
-          <div className="beard_description">
-            <h4>
-              La <span>Włosy</span>
-            </h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
-              urna, porttitor rhoncus dolor purus non t aliquam, purus sit amet
-              luctus venenatis, lectus magna fringilla urna, porttitor rhoncus
-              dolor purus non.
-            </p>
-            <button className="beard_content_button">Dowiedz się więcej</button>
-          </div>
-
-          <div className="razor_photo">
-            <img src={image7} alt="skin_content_photo" />
-          </div>
-
-          <div className="example_photo">
-            <img src={image8} />
-          </div>
+        <div className="razor_photo">
+          <img src={image7} alt="skin_content_photo" />
         </div>
+
+        <div className="example_photo">
+          <img src={image8} />
+        </div>
+      </div>
 
       <div className="container_carousel_products">
         <div className="top_panel_carousel">
@@ -157,16 +171,16 @@ function App() {
       </div>
 
       <div className="quote_container">
-        <div className='quote_content'>
-            <div className="quote">
+        <div className="quote_content">
+          <div className="quote">
             Naszą ambicją jest sprawić, abyś wyszła z salonu z nowym wizerunkiem
-            <span id='quote_span'> siebie.</span>
-            </div>
+            <span id="quote_span"> siebie.</span>
+          </div>
 
-            <div className="quote_author">
-                Richard Davidson, <span id='quote_span'>Kierownik pokazu w Montpellier</span>
-            </div>
-
+          <div className="quote_author">
+            Richard Davidson,{' '}
+            <span id="quote_span">Kierownik pokazu w Montpellier</span>
+          </div>
         </div>
 
         <div className="quote_text">
@@ -185,7 +199,6 @@ function App() {
         </p>
 
         <button className="beard_content_button">Odkryj</button>
-        
       </div>
 
       <div className="artist_image">
@@ -202,206 +215,207 @@ function App() {
         </div>
 
         <div className="pricing_card_container">
-          
-        
-
-        <div className="wrapper">
-          <div className="table basic">
-            <div className="price-section">
-              <div className="price-area">
-                <div className="inner-area">
-                  <span className="text">zł</span>
-                  <span className="price">30</span>
+          <div className="wrapper">
+            <div className="table basic">
+              <div className="price-section">
+                <div className="price-area">
+                  <div className="inner-area">
+                    <span className="text">zł</span>
+                    <span className="price">30</span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="package-name"></div>
-            <ul className="features">
-              <li>
-                <span className="list-name">Analiza skóry głowy i masaż</span>
-                <span className="icon check">
-                  <i className="fas fa-check"></i>
-                </span>
-              </li>
-              <li>
-                <span className="list-name">Zastosowanie odpowiedniego leczenia</span>
-                <span className="icon check">
-                  <i className="fas fa-check"></i>
-                </span>
-              </li>
-              <li>
-                <span className="list-name">Strzyżenie</span>
-                <span className="icon cross">
-                  <i className="fas fa-check"></i>
-                </span>
-              </li>
-              <li>
-                <span className="list-name">Profesjonalna pielęgnacja</span>
-                <span className="icon cross">
-                  <i className="fas fa-check"></i>
-                </span>
-              </li>
-            </ul>
-            <div className="btn">
-              <button>Umów sie</button>
-            </div>
-          </div>
-          <div className="table premium">
-            <div className="ribbon">
-              <span>Polecamy</span>
-            </div>
-            <div className="price-section">
-              <div className="price-area">
-                <div className="inner-area">
-                  <span className="text">zł</span>
-                  <span className="price">45</span>
-                </div>
+              <div className="package-name"></div>
+              <ul className="features">
+                <li>
+                  <span className="list-name">Analiza skóry głowy i masaż</span>
+                  <span className="icon check">
+                    <i className="fas fa-check"></i>
+                  </span>
+                </li>
+                <li>
+                  <span className="list-name">
+                    Zastosowanie odpowiedniego leczenia
+                  </span>
+                  <span className="icon check">
+                    <i className="fas fa-check"></i>
+                  </span>
+                </li>
+                <li>
+                  <span className="list-name">Strzyżenie</span>
+                  <span className="icon cross">
+                    <i className="fas fa-check"></i>
+                  </span>
+                </li>
+                <li>
+                  <span className="list-name">Profesjonalna pielęgnacja</span>
+                  <span className="icon cross">
+                    <i className="fas fa-check"></i>
+                  </span>
+                </li>
+              </ul>
+              <div className="btn">
+                <button>Umów sie</button>
               </div>
             </div>
-            <div className="package-name"></div>
-            <ul className="features">
-              <li>
-                <span className="list-name">Analiza skóry głowy i masaż</span>
-                <span className="icon check">
-                  <i className="fas fa-check"></i>
-                </span>
-              </li>
-              <li>
-                <span className="list-name">Zastosowanie odpowiedniego leczenia</span>
-                <span className="icon check">
-                  <i className="fas fa-check"></i>
-                </span>
-              </li>
-              <li>
-                <span className="list-name">Strzyżenie</span>
-                <span className="icon check">
-                  <i className="fas fa-check"></i>
-                </span>
-              </li>
-              <li>
-                <span className="list-name">Trymowanie i przycinanie brody</span>
-                <span className="icon cross">
-                  <i className="fas fa-check"></i>
-                </span>
-              </li>
-              <li>
-                <span className="list-name">Profesjonalna pielęgnacja</span>
-                <span className="icon cross">
-                  <i className="fas fa-check"></i>
-                </span>
-              </li>
-            </ul>
-            <div className="btn">
-              <button>Umów sie</button>
-            </div>
-          </div>
-          <div className="table ultimate">
-            <div className="price-section">
-              <div className="price-area">
-                <div className="inner-area">
-                  <span className="text">zł</span>
-                  <span className="price">20</span>
+            <div className="table premium">
+              <div className="ribbon">
+                <span>Polecamy</span>
+              </div>
+              <div className="price-section">
+                <div className="price-area">
+                  <div className="inner-area">
+                    <span className="text">zł</span>
+                    <span className="price">45</span>
+                  </div>
                 </div>
               </div>
+              <div className="package-name"></div>
+              <ul className="features">
+                <li>
+                  <span className="list-name">Analiza skóry głowy i masaż</span>
+                  <span className="icon check">
+                    <i className="fas fa-check"></i>
+                  </span>
+                </li>
+                <li>
+                  <span className="list-name">
+                    Zastosowanie odpowiedniego leczenia
+                  </span>
+                  <span className="icon check">
+                    <i className="fas fa-check"></i>
+                  </span>
+                </li>
+                <li>
+                  <span className="list-name">Strzyżenie</span>
+                  <span className="icon check">
+                    <i className="fas fa-check"></i>
+                  </span>
+                </li>
+                <li>
+                  <span className="list-name">
+                    Trymowanie i przycinanie brody
+                  </span>
+                  <span className="icon cross">
+                    <i className="fas fa-check"></i>
+                  </span>
+                </li>
+                <li>
+                  <span className="list-name">Profesjonalna pielęgnacja</span>
+                  <span className="icon cross">
+                    <i className="fas fa-check"></i>
+                  </span>
+                </li>
+              </ul>
+              <div className="btn">
+                <button>Umów sie</button>
+              </div>
             </div>
-            <div className="package-name"></div>
-            <ul className="features">
-              <li>
-                <span className="list-name">Zastosowanie odpowiedniego leczenia</span>
-                <span className="icon check">
-                  <i className="fas fa-check"></i>
-                </span>
-              </li>
-              <li>
-                <span className="list-name">Trymowanie brody</span>
-                <span className="icon check">
-                  <i className="fas fa-check"></i>
-                </span>
-              </li>
-              <li>
-                <span className="list-name">Przycinanie brody</span>
-                <span className="icon check">
-                  <i className="fas fa-check"></i>
-                </span>
-              </li>
-              <li>
-                <span className="list-name">Profesjonalna pielęgnacja</span>
-                <span className="icon check">
-                  <i className="fas fa-check"></i>
-                </span>
-              </li>
-            </ul>
-            <div className="btn">
-              <button>Umów sie</button>
+            <div className="table ultimate">
+              <div className="price-section">
+                <div className="price-area">
+                  <div className="inner-area">
+                    <span className="text">zł</span>
+                    <span className="price">20</span>
+                  </div>
+                </div>
+              </div>
+              <div className="package-name"></div>
+              <ul className="features">
+                <li>
+                  <span className="list-name">
+                    Zastosowanie odpowiedniego leczenia
+                  </span>
+                  <span className="icon check">
+                    <i className="fas fa-check"></i>
+                  </span>
+                </li>
+                <li>
+                  <span className="list-name">Trymowanie brody</span>
+                  <span className="icon check">
+                    <i className="fas fa-check"></i>
+                  </span>
+                </li>
+                <li>
+                  <span className="list-name">Przycinanie brody</span>
+                  <span className="icon check">
+                    <i className="fas fa-check"></i>
+                  </span>
+                </li>
+                <li>
+                  <span className="list-name">Profesjonalna pielęgnacja</span>
+                  <span className="icon check">
+                    <i className="fas fa-check"></i>
+                  </span>
+                </li>
+              </ul>
+              <div className="btn">
+                <button>Umów sie</button>
+              </div>
             </div>
           </div>
         </div>
-        </div>
+      </div>
+
+      <div className="beard_top_panel">
+        <h4 id="text_beard_top_panel">Skontaktuj się z nami</h4>
+      </div>
+
+      <div className="contact_container">
+        <div id="photo_chair">
+          <img src={image10} alt="beard_content_product" />
         </div>
 
-        <div className="beard_top_panel">
-          <h4 id="text_beard_top_panel">Skontaktuj się z nami</h4>
-        </div>
+        <div className="contact_details">
+          <h2>Szczegóły Kontaktu</h2>
+          <p>
+            Prototypy mogą być również zwolnione z niektórych wymagań, które
+            będą miały zastosowanie do produktu końcowego
+          </p>
 
-        <div className="contact_container">
-          <div id="photo_chair">
-            <img src={image10} alt="beard_content_product" />
+          <div className="contact_address">
+            <h3>7813 Cherry Hill Ave.Snohomish, Paris 98290</h3>
+
+            <h3>📞 +33 31 94 38 76 04 👋 hello@frenchbarber.fr</h3>
           </div>
 
-          <div className="contact_details">
-            <h2>Szczegóły Kontaktu</h2>
+          <div className="social_icons"></div>
+        </div>
+      </div>
+
+      <div className="footer_container">
+        <div className="footer_content">
+          <div className="footer_left">
+            <h2>Polish Barber</h2>
             <p>
-              Prototypy mogą być również zwolnione z niektórych wymagań, które
-              będą miały zastosowanie do produktu końcowego
+              Streetstyle i modna atmosfera w połączeniu z elegancją i know-how
+              Paryża tworzą szykowną i ciepłą koncepcję.
             </p>
-
-            <div className="contact_address">
-              <h3>7813 Cherry Hill Ave.Snohomish, Paris 98290</h3>
-
-              <h3>📞 +33 31 94 38 76 04 👋 hello@frenchbarber.fr</h3>
-            </div>
-
-            <div className="social_icons"></div>
+            <p>Telefon : 03 12 14 27 64</p>
           </div>
-        </div>
-
-        <div className="footer_container">
-          <div className="footer_content">
-            <div className="footer_left">
-              <h2>Polish Barber</h2>
-              <p>
-                Streetstyle i modna atmosfera w połączeniu z elegancją i
-                know-how Paryża tworzą szykowną i ciepłą koncepcję.
-              </p>
-              <p>Telefon : 03 12 14 27 64</p>
+          <div className="footer_right">
+            <div className="left_content">
+              <h2>Sklep</h2>
+              <ul>
+                <li>Nasza prezentacja</li>
+                <li>Nasze produkty</li>
+                <li>Nasze salony</li>
+                <li>Nasze ceny</li>
+              </ul>
             </div>
-            <div className="footer_right">
-              <div className="left_content">
-                <h2>Sklep</h2>
-                <ul>
-                  <li>Nasza prezentacja</li>
-                  <li>Nasze produkty</li>
-                  <li>Nasze salony</li>
-                  <li>Nasze ceny</li>
-                </ul>
-              </div>
-              <div className="right_content">
-                <h2>Informacje</h2>
-                <ul>
-                  <li>Dołącz do nas</li>
-                  <li>Instagram</li>
-                  <li>Facebook</li>
-                  <li>Twitter</li>
-                </ul>
-              </div>
+            <div className="right_content">
+              <h2>Informacje</h2>
+              <ul>
+                <li>Dołącz do nas</li>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Twitter</li>
+              </ul>
             </div>
           </div>
         </div>
-        <div className="footer_bottom">© 2021 The French Barber</div>
-      
-
-
-      
+      </div>
+      <div className="footer_bottom">© 2021 The French Barber</div>
     </div>
   );
 }
